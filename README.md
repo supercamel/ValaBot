@@ -7,6 +7,12 @@ I fine tuned the Deepseek-Coder-6.7B model on the Vala programming language. It 
 ![deepseek-vala](https://github.com/supercamel/ValaBot/assets/7779685/cbd00f3f-1268-4773-b90e-fcd20c591114)
 
 
+Here is Github Copilot for comparison
+
+![copilot_is_clueless](https://github.com/supercamel/ValaBot/assets/7779685/9f0675ef-5332-4a5a-8ce8-b6491aad299c)
+
+Deepseek-Coder-6.7B-Vala produces more accurate snippets which makes it much quicker and easier to write code in Vala. 
+
 The model is freely available on Huggingface: https://huggingface.co/scowen/deepseek-coder-6.7b-vala/tree/main
 
 It can be used with TabbyML: https://github.com/TabbyML/tabby
