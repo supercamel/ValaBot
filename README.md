@@ -1,8 +1,13 @@
 # ValaBot
 
-*A better copilot for coding in Vala*
+*A better bot for coding in Vala*
 
 I fine tuned the Deepseek-Coder-6.7B model on the Vala programming language. It is significantly better at helping to write Vala/Gtk+ applications than other coding assistants such as Copilot. 
+
+Deepseek-Coder-6.7B-Vala is on the left, GitHub copilot is on the right.
+
+<video src='https://github.com/supercamel/ValaBot/assets/7779685/31a0517b-b92f-4308-9dc4-8010fc778228' width=180></video>
+<video src='https://github.com/supercamel/ValaBot/assets/7779685/174104b4-335c-442e-a445-352c9cf6dec2' width=180></video> 
 
 The model is freely available on Huggingface: https://huggingface.co/scowen/deepseek-coder-6.7b-vala/tree/main
 
@@ -13,6 +18,10 @@ It can be used with TabbyML: https://github.com/TabbyML/tabby
 You will require a half decent GPU to run this bot well. You'll need probably 12GB of VRAM. Something like an RTX 3060 or RX 6800 is fine. 
 
 for nvidia
+
+
+
+
 
 ```
 docker run -it   --gpus all -p 8080:8080 -v $HOME/.tabby:/data   tabbyml/tabby   serve --model supercamel/DeepseekCoder-6.7B-Vala --device cuda
