@@ -4,10 +4,8 @@
 
 I fine tuned the Deepseek-Coder-6.7B model on the Vala programming language. It is significantly better at helping to write Vala/Gtk+ applications than other coding assistants such as Copilot. 
 
-Deepseek-Coder-6.7B-Vala is on the left, GitHub copilot is on the right.
+![deepseek-vala](https://github.com/supercamel/ValaBot/assets/7779685/cbd00f3f-1268-4773-b90e-fcd20c591114)
 
-<video src='https://github.com/supercamel/ValaBot/assets/7779685/31a0517b-b92f-4308-9dc4-8010fc778228' width=180></video>
-<video src='https://github.com/supercamel/ValaBot/assets/7779685/174104b4-335c-442e-a445-352c9cf6dec2' width=180></video> 
 
 The model is freely available on Huggingface: https://huggingface.co/scowen/deepseek-coder-6.7b-vala/tree/main
 
@@ -31,7 +29,8 @@ docker run -it   --gpus all -p 8080:8080 -v $HOME/.tabby:/data   tabbyml/tabby  
 for amd
 ```
 sudo docker run -it   --device /dev/dri --device /dev/kfd   -p 8080:8080 -v $HOME/.tabby:/data   tabbyml/tabby-rocm   serve --model supercamel/DeepseekCoder-6.7B-Vala --device rocm
-```
+```![copilot](https://github.com/supercamel/ValaBot/assets/7779685/b862f7a2-3d2e-45a8-a7cd-41d39c1e609f)
+
 
 ### RAG
 
