@@ -29,7 +29,7 @@ docker run -it   --gpus all -p 8080:8080 -v $HOME/.tabby:/data   tabbyml/tabby  
 for amd
 ```
 sudo docker run -it   --device /dev/dri --device /dev/kfd   -p 8080:8080 -v $HOME/.tabby:/data   tabbyml/tabby-rocm   serve --model supercamel/DeepseekCoder-6.7B-Vala --device rocm
-```![copilot](https://github.com/supercamel/ValaBot/assets/7779685/b862f7a2-3d2e-45a8-a7cd-41d39c1e609f)
+```
 
 
 ### RAG
