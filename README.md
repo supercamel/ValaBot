@@ -5,6 +5,7 @@
 I fine tuned the Deepseek-Coder-6.7B model on the Vala programming language. It is significantly better at helping to write Vala/Gtk+ applications than other coding assistants such as Copilot. 
 
 The model is freely available on Huggingface: https://huggingface.co/scowen/deepseek-coder-6.7b-vala/tree/main
+
 It can be used with TabbyML: https://github.com/TabbyML/tabby
 
 ## Server Setup 
